@@ -1,0 +1,8 @@
+For week 12's lab, I implemented a new feature - log in and sign up.
+
+- When a user signs up, their email and password will be saved in the database. However, if there is a duplicate sign
+up, a toast "User already exist" appears.
+
+-When the user tries to log in, the username and password has to match the database. If the email doesn't match, users
+will get notified. If the password doesn't match, users will get notified that password is wrong.If both match the database,
+log in will be successful, and it will jump to the movie library activity.
